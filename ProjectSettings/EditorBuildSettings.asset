@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PragueStory.unity
+    guid: 1164b710534d2914782cfdefc46f6f0b
+  - enabled: 1
+    path: Assets/Scenes/Prague360Video.unity
+    guid: 81850ceaeeb474145bd56c8dafe41f82
+  - enabled: 1
+    path: Assets/Scenes/Amsterdam360Video.unity
+    guid: 71c151016d173f646b78122093c428e2
+  - enabled: 1
+    path: Assets/Scenes/Amsterdam.unity
+    guid: f23ec756174b3004ba84bebe6e003052
+  - enabled: 1
+    path: Assets/Scenes/Singapore.unity
+    guid: 828f91f6191d6414899315da6ee05c92
+  - enabled: 1
+    path: Assets/Scenes/Singapore360Video.unity
+    guid: 9d461840e1bf86a4aa488bbb916f7adf

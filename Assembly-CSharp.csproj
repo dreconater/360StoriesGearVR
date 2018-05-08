@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{FEBB9CA0-B4A1-9F3F-9697-52142E6E66B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_0;UNITY_2017_4;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCameraComposition.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRComposition.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCompositionUtil.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRDirectComposition.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRExternalComposition.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRSandwichComposition.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRBoundary.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRCommon.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRDebugHeadController.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRDisplay.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRHaptics.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRHapticsClip.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRInput.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRLayerAttribute.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRLint.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRMixedReality.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVROnCompleteListener.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVROverlay.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRPlatformMenu.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRPlugin.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRProfile.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\OVRTracker.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRChromaticAberration.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRCubemapCapture.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRDebugInfo.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGazePointer.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGearVrControllerTest.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGrabbable.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGrabber.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGridCube.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRInputModule.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRMixedRealityCaptureSettings.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRModeParms.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRMonoscopic.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRPhysicsRaycaster.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRPlayerController.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRPointerEventData.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRProfiler.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRProgressIndicator.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRaycaster.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRecord.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRResetOrientation.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSceneSampleController.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRScreenFade.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRTrackedRemote.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\IOVRInspectorContext.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRDiscomfortWarning.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRDiscomfortWarningSource.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRInspector.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRInspectorContext.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRInspectorLoader.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRInspectorPanelBuilder.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRMousePointer.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRRenderTrackerFrustum.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRSettingsMenu.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRSliderLabelUpdater.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRUISettingsMenu.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRUserPanel.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\OVRWarningList.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\ParticleGazeCursor.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\UIUtils\OVRGazeEventTrigger.cs" />
+     <Compile Include="Assets\OVRInspector\Scripts\UIUtils\OVRGazeScroller.cs" />
+     <Compile Include="Assets\RORV\Scripts\ButtonTimer.cs" />
+     <Compile Include="Assets\RORV\Scripts\FillCursor.cs" />
+     <Compile Include="Assets\RORV\Scripts\NotificationCenter.cs" />
+     <Compile Include="Assets\Scripts\AmsterdamAudioAnimations.cs" />
+     <Compile Include="Assets\Scripts\AudioAnimations.cs" />
+     <Compile Include="Assets\Scripts\AutoStartStory.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CameraControllerWithCompass.cs" />
+     <Compile Include="Assets\Scripts\CheckingBookFields.cs" />
+     <Compile Include="Assets\Scripts\CheckPoint.cs" />
+     <Compile Include="Assets\Scripts\CircularScrollingList\ListBank.cs" />
+     <Compile Include="Assets\Scripts\CircularScrollingList\ListBox.cs" />
+     <Compile Include="Assets\Scripts\CircularScrollingList\ListPositionCtrl.cs" />
+     <Compile Include="Assets\Scripts\FollowScript.cs" />
+     <Compile Include="Assets\Scripts\InformationLikeScript.cs" />
+     <Compile Include="Assets\Scripts\MarkerScript.cs" />
+     <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+     <Compile Include="Assets\Scripts\OpenCloseButtonSystem.cs" />
+     <Compile Include="Assets\Scripts\PanoTransform.cs" />
+     <Compile Include="Assets\Scripts\Procedural\ProceduralCylinder.cs" />
+     <Compile Include="Assets\Scripts\SceneChanger.cs" />
+     <Compile Include="Assets\Scripts\ScrollSnapRect.cs" />
+     <Compile Include="Assets\Scripts\SingaporeAudioAnimations.cs" />
+     <Compile Include="Assets\Scripts\VideoEnding.cs" />
+     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Demo\CanvasKeyboardEditableButton.cs" />
+     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Demo\ToggleKeyboard.cs" />
+     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\CanvasKeyboard.cs" />
+     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\CanvasKeyboardASCII.cs" />
+     <Compile Include="Assets\Tales From The Rift\CanvasKeyboard\Scripts\OpenCanvasKeyboard.cs" />
+     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\ButtonListener.cs" />
+     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\CubeListener.cs" />
+     <Compile Include="Assets\Tales From The Rift\Gaze\Demo\GazeCrosshairOnOff.cs" />
+     <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModule.cs" />
+     <Compile Include="Assets\Tales From The Rift\Gaze\GazeInputModuleCrosshair.cs" />
+     <None Include="Assets\OVRInspector\Resources\Quit.txt" />
+     <None Include="Assets\Oculus\VR\Resources\OVRMRUnlitTransparent.shader" />
+     <None Include="Assets\Oculus\VR\Resources\OVRMRChromaKey.cginc" />
+     <None Include="Assets\OVRInspector\Shaders\Particle Alpha Blend-AfterTrans-TransAlphaCutoff.shader" />
+     <None Include="Assets\OVRInspector\Shaders\Particle-Alpha-Premultiply-AfterTrans.shader" />
+     <None Include="Assets\OVRInspector\Shaders\UI-OptionalZTest.shader" />
+     <None Include="Assets\OVRInspector\Resources\OVRSettings.txt" />
+     <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
+     <None Include="Assets\OVRInspector\Shaders\UI-OptionalZTestFont.shader" />
+     <None Include="Assets\OVRInspector\LICENSE.txt" />
+     <None Include="Assets\Oculus\VR\Resources\Cubemap Blit.shader" />
+     <None Include="Assets\Resources\Flip.shader" />
+     <None Include="Assets\Oculus\VR\Resources\OVRMRUnlit.shader" />
+     <None Include="Assets\Oculus\VR\Shaders\Unlit Crosshair.shader" />
+     <None Include="Assets\Oculus\VR\Resources\Unlit Transparent Color.shader" />
+     <None Include="Assets\Resources\Blur.shader" />
+     <None Include="Assets\Oculus\VR\Resources\OVRMRCameraFrameLit.shader" />
+     <None Include="Assets\Oculus\VR\Resources\Underlay Transparent Occluder.shader" />
+     <None Include="Assets\Oculus\VR\Resources\Texture2D Blit.shader" />
+     <None Include="Assets\OVRInspector\Resources\UISettings.txt" />
+     <None Include="Assets\Resources\StoryText.txt" />
+     <None Include="Assets\Resources\Text.txt" />
+     <None Include="Assets\Pics\Panorama.shader" />
+     <None Include="Assets\Oculus\VR\Resources\OVRMRCameraFrame.shader" />
+     <None Include="Assets\Oculus\VR\Resources\OVRMRClipPlane.shader" />
+     <None Include="Assets\Oculus\VR\Resources\Underlay Impostor.shader" />
+     <None Include="Assets\Oculus\VR\Plugins\placeholder.txt" />
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{75C3CFD0-D1FE-3B3C-ECD6-C5D0EBC81D73}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

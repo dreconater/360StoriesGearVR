@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Oculus\VR\Scripts\Util\OVRInputModule.cs">
+    <Files>
+      <File FileName="Assets\Oculus\VR\Scripts\Util\OVRInputModule.cs" Line="696" Column="6" />
+      <File FileName="Assets\Oculus\VR\Scripts\Util\OVRGazePointer.cs" Line="185" Column="79" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
